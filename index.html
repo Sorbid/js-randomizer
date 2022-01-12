@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Рандомайзер</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Рандомайзер</h1>
+    <form id='form-input' class="form">
+        <div class='input-group'>
+            <input type="number" class="input-number" id="input1" required>
+            <input type="number" class="input-number" id="input2" required>
+            <input type="number" class="input-number" id="input3" required>
+            <input type="number" class="input-number" id="input4" required>
+        </div>
+        <div class='input-group'>
+            <input type="number" class="input-number" id="input5" required>
+            <input type="number" class="input-number" id="input6" required>
+            <input type="number" class="input-number" id="input7" required>
+            <input type="number" class="input-number" id="input8" required>
+        </div>
+    </form>
+    <br/>
+    <div class='input-group'>
+        <input type="button" class="btn btn-outline-secondary" onclick="startRandom()" id='button-start-randomizer' value='Старт'></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
